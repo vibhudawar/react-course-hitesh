@@ -1,18 +1,16 @@
 import { useState } from "react";
 
-
 function App() {
-  
   // use state hook returns the array and first element is variable and second being the function
   // useState hook takes the initial value of the variable as the input
   const [counter, setCounter] = useState(0);
 
   const addValue = () => {
     setCounter(counter + 1);
-  }
+  };
   const removeValue = () => {
     setCounter(counter - 1);
-  }
+  };
 
   return (
     <>
